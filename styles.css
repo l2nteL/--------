@@ -122,6 +122,12 @@ input[type="date"]{
     background-color: black;
 }
 
+input[type="tel"]{
+
+    color: rgb(204, 8, 8);
+    background-color: black;
+}
+
 input[type="submit"]{
 
     color: rgb(204, 8, 8);
