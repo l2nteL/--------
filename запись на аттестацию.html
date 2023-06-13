@@ -46,7 +46,12 @@
 
                 <div>
                     <label>Дата рождения:</label>
-                    <input required type="date" name="Дата рождения">
+                    <input type="date" name="Дата рождения">
+                </div>
+
+                <div>
+                    <label>номер телефона:</label>
+                    <input type="tel" name="номер телефона" pattern="\7\d{9}">
                 </div>
         
                 <div>
@@ -70,10 +75,10 @@
         
                 <div>
                     <label>Время:</label>
-                    <input type="radio" name="Время" value="0" />12.00
-                    <input type="radio" name="Время" value="1" />13.00 <br>
-                    <input type="radio" name="Время" value="2" />14.00
-                    <input type="radio" name="Время" value="3" />15.00 <br>
+                    <input required type="radio" name="Время" value="0" />12.00
+                    <input required type="radio" name="Время" value="1" />13.00 <br>
+                    <input required type="radio" name="Время" value="2" />14.00
+                    <input required type="radio" name="Время" value="3" />15.00 <br>
                 </div>
         
                 <div>
