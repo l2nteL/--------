@@ -116,6 +116,12 @@ input[type="password"]{
     background-color: black;
 }
 
+input[type="date"]{
+
+    color: rgb(204, 8, 8);
+    background-color: black;
+}
+
 input[type="submit"]{
 
     color: rgb(204, 8, 8);
@@ -130,6 +136,7 @@ option{
 select{
     background-color: transparent;
     margin: 10px;
+    color:  rgb(204, 8, 8);
 }
 
 textarea{

@@ -31,22 +31,32 @@
             <form name="signame" actions="#" method="post">
                 <div>
                     <label>Фамилия:</label>
-                    <input type="text" name="Фамилия">
+                    <input required type="text" name="Фамилия" pattern="^[А-Яа-яЁё\s]+$">
                 </div>
         
                 <div>
                     <label>Имя:</label>
-                    <input type="text" name="Имя">
+                    <input required type="text" name="Имя" pattern="^[А-Яа-яЁё\s]+$">
+                </div>
+
+                <div>
+                    <label>Отчество:</label>
+                    <input required type="text" name="Отчество" pattern="^[А-Яа-яЁё\s]+$">
+                </div>
+
+                <div>
+                    <label>Дата рождения:</label>
+                    <input required type="date" name="Дата рождения">
                 </div>
         
                 <div>
-                    <label>Логин :</label>
-                    <input type="text" name="Логин">
+                    <label>Логин (email):</label>
+                    <input required type="text" name="Логин">
                 </div>
         
                 <div>
                     <label>Пароль:</label>
-                    <input type="password" name="Пароль">
+                    <input required type="password" name="Пароль">
                 </div>
         
                 <div>
@@ -55,24 +65,23 @@
                         <option>Математика</option>
                         <option>Информатика</option>
                         <option>Физика</option>
-                        <option>База данных</option>
                     </select>
                 </div>
         
                 <div>
-                    <label>время:</label>
+                    <label>Время:</label>
                     <input type="radio" name="Время" value="0" />12.00
-                    <input type="radio" name="Время" value="1" />13.00
+                    <input type="radio" name="Время" value="1" />13.00 <br>
                     <input type="radio" name="Время" value="2" />14.00
-                    <input type="radio" name="Время" value="3" />15.00
+                    <input type="radio" name="Время" value="3" />15.00 <br>
                 </div>
         
                 <div>
-                    <label>Форма контроля</label>
-                    <input type="checkbox" name="Контроль" value="Тест"> Тест
-                    <input type="checkbox" name="Контроль" value="Собеседование"> Собеседование
-                    <input type="checkbox" name="Контроль" value="Доклад"> Доклад
-                    <input type="checkbox" name="Контроль" value="Контрольная работа"> Контрольная работа
+                    <label>Форма контроля:</label> <br>
+                    <input type="checkbox" name="Контроль" value="Тест"> Тест 
+                    <input type="checkbox" name="Контроль" value="Собеседование"> Собеседование <br>
+                    <input type="checkbox" name="Контроль" value="Доклад"> Доклад 
+                    <input type="checkbox" name="Контроль" value="Контрольная работа"> Контрольная работа <br>
                 </div>
                 
                 <div>
